@@ -13,7 +13,7 @@ public class Demo2 {
 			
 			WebElement coins = driver.findElement(By.xpath("//a[@title='Gold Coins']"));
 			coins.click();
-			
+			Thread.sleep(1000);
 			WebElement laxmicoins = driver.findElement(By.xpath("//span[@data-p='l-gold-coins-weight-20gms,m']"));
 			laxmicoins.click();
 }

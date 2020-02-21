@@ -18,19 +18,7 @@ public class kadas_bluestone {
 		//user.click();
 		//Thread.sleep(10000);
 
-		List<WebElement> ele = driver.findElements(By.xpath("//ul[@class='wh-main-menu']/li"));
-		Actions a = new Actions(driver);
-		Thread.sleep(2000);
-	
-		for (WebElement menu : ele) {
-			String item = menu.getText();
-			System.err.println(item);
-			a.moveToElement(menu).build().perform();
-			Thread.sleep(2000);
-
-			WebElement kadas = driver.findElement(By.xpath("//a[@title='Kadas']"));
-             kadas.click();
-             WebElement sel = driver.findElement(By.xpath(""));
+		                 WebElement sel = driver.findElement(By.xpath(""));
              kadas.click();
              WebElement buy = driver.findElement(By.xpath("//input[@id='buy-now']"));
              a.doubleClick(buy).perform();
