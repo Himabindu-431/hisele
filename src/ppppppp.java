@@ -7,6 +7,5 @@ public class ppppppp {
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://www.flipkart.com/");
-		Thread.sleep(10000);
 }
 }
