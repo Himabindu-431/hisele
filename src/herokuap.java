@@ -10,7 +10,6 @@ public class herokuap {
 		String pass="admin";		
 		String url="http://" + user+ ":" +pass+ "@the-internet.herokuapp.com/basic_auth";
 		driver.get(url);
-		Thread.sleep(10000);
 	
 }
 }
